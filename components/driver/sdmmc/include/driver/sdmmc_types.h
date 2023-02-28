@@ -164,7 +164,7 @@ typedef struct {
 #define SDMMC_HOST_FLAG_DEINIT_ARG BIT(5)      /*!< host `deinit` function called with the slot argument */
     int slot;                   /*!< slot number, to be passed to host functions */
     int max_freq_khz;           /*!< max frequency supported by the host */
-#define SDMMC_FREQ_DEFAULT      20000       /*!< SD/MMC Default speed (limited by clock divider) */
+#define SDMMC_FREQ_DEFAULT      5000        /*!< SD/MMC Default speed (limited by clock divider) */
 #define SDMMC_FREQ_HIGHSPEED    40000       /*!< SD High speed (limited by clock divider) */
 #define SDMMC_FREQ_PROBING      400         /*!< SD/MMC probing speed */
 #define SDMMC_FREQ_52M          52000       /*!< MMC 52MHz speed */
